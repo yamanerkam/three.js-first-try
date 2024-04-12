@@ -53,6 +53,37 @@ body {
     display: block;
 }
 
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+span {
+    margin-left: 20px;
+}
+
+ul {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #2b885d;
+}
+
+ul li {
+    list-style: none;
+}
+
 .dummy:hover {
     color: #2b885d !important;
     font-size: 40px;
